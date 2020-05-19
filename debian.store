@@ -1,1 +1,1 @@
-{"trim": "", "base": "c3240ce", "trimbase": "", "parent": "debian/foxy/rqt_py_common", "previous": "4fc1623"}
+{"base": "5a50336", "parent": "debian/testing/rqt_py_common", "previous": "f4e4dc1", "trim": "", "trimbase": ""}
