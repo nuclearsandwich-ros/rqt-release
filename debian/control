@@ -1,0 +1,12 @@
+Source: ros-testing-rqt-gui-cpp
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-testing-ament-cmake, ros-testing-qt-gui (>= 0.3.0), ros-testing-qt-gui-cpp (>= 0.3.0), ros-testing-rclcpp, ros-testing-ros-workspace
+Homepage: http://ros.org/wiki/rqt_gui_cpp
+Standards-Version: 3.9.2
+
+Package: ros-testing-rqt-gui-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-qt-gui (>= 0.3.0), ros-testing-qt-gui-cpp (>= 0.3.0), ros-testing-rclcpp, ros-testing-ros-workspace
+Description: rqt_gui_cpp enables GUI plugins to use the C++ client library for ROS.
