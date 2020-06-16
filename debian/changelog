@@ -1,0 +1,111 @@
+ros-rolling-rqt-gui-cpp (1.0.6-2focal) focal; urgency=high
+
+  * avoid new deprecations (#225 <https://github.com/ros-visualization/rqt/issues/225>)
+  * replace deprecated usage of rclcpp::is_initialized() (#215 <https://github.com/ros-visualization/rqt/issues/215>)
+  * Contributors: Jacob Perron, William Woodall
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 05 May 2020 04:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (1.0.5-2focal) focal; urgency=high
+
+  * drop unnecessary MOC compilation (#203 <https://github.com/ros-visualization/rqt/issues/203>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 30 Sep 2019 04:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (1.0.2-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 04 Feb 2019 05:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (1.0.1-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 12 Dec 2018 05:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (1.0.0-2focal) focal; urgency=high
+
+  * skip rqt_gui_cpp on Windows (#177 <https://github.com/ros-visualization/rqt/issues/177>)
+  * use non-deprecated header (#173 <https://github.com/ros-visualization/rqt/issues/173>)
+  * port rqt_gui_cpp to ROS 2 (#163 <https://github.com/ros-visualization/rqt/issues/163>)
+  * address feedback on the rqt_py_common port (#155 <https://github.com/ros-visualization/rqt/issues/155>)
+  * ignore unported packages (#157 <https://github.com/ros-visualization/rqt/issues/157>)
+  * style changes (#143 <https://github.com/ros-visualization/rqt/issues/143>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 11 Dec 2018 05:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (0.5.0-2focal) focal; urgency=high
+
+  * version bump to match version of migrated package rqt_py_common
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 24 Apr 2017 04:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (0.3.2-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 24 Jan 2017 05:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (0.3.1-2focal) focal; urgency=high
+
+  * add missing build dependency
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 01 Apr 2016 04:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (0.3.0-2focal) focal; urgency=high
+
+  * switch to Qt5 (#106 <https://github.com/ros-visualization/rqt/pull/106>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 01 Apr 2016 04:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (0.2.14-2focal) focal; urgency=high
+
+  * add ros spinner thread for cpp plugins (#95 <https://github.com/ros-visualization/rqt/issues/95>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 04 Mar 2014 05:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (0.2.13-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 08 Jan 2014 05:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (0.2.12-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 09 Oct 2013 04:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (0.2.11-2focal) focal; urgency=high
+
+  * fix wait for master for cpp plugins (ros-visualization/rqt_common_plugins#173 <https://github.com/ros-visualization/rqt_common_plugins/issues/173>)
+  * detect master with background thread (ros-visualization/rqt_common_plugins#169 <https://github.com/ros-visualization/rqt_common_plugins/issues/169>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 06 Sep 2013 04:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (0.2.10-2focal) focal; urgency=high
+
+  * check for master before loading a plugin and ask the user if not found (#67 <https://github.com/ros-visualization/rqt/issues/67>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 21 Aug 2013 04:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (0.2.9-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 06 Jun 2013 04:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (0.2.8-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 11 Jan 2013 05:00:00 -0000
+
+ros-rolling-rqt-gui-cpp (0.2.7-2focal) focal; urgency=high
+
+  * first public release for Groovy
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 31 Dec 2012 05:00:00 -0000
+
+
