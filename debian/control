@@ -1,0 +1,13 @@
+Source: ros-rolling-rqt
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ros-workspace, python3-all, python3-setuptools
+Homepage: http://ros.org/wiki/rqt
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rqt
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-rolling-rqt-gui (>= 0.3.0), ros-rolling-rqt-gui-cpp (>= 0.3.0), ros-rolling-rqt-gui-py (>= 0.3.0), ros-rolling-rqt-py-common, ros-rolling-ros-workspace
+Description: rqt is a Qt-based framework for GUI development for ROS.
+ It consists of three parts/metapackages rqt (you're here) rqt_common_plugins - ROS backend tools suite that can be used on/off of robot runtime. rqt_robot_plugins - Tools for interacting with robots during their runtime. rqt metapackage provides a widget rqt_gui that enables multiple `rqt` widgets to be docked in a single window.
