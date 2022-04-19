@@ -1,0 +1,12 @@
+Source: ros-humble-rqt-gui
+Section: misc
+Priority: optional
+Maintainer: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-qt-gui (>= 0.3.0), ros-humble-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://ros.org/wiki/rqt_gui
+Standards-Version: 3.9.2
+
+Package: ros-humble-rqt-gui
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-catkin-pkg-modules, ros-humble-ament-index-python, ros-humble-python-qt-binding, ros-humble-qt-gui (>= 0.3.0), ros-humble-rclpy, ros-humble-ros-workspace
+Description: rqt_gui provides the main to start an instance of the ROS integrated graphical user interface provided by qt_gui.
