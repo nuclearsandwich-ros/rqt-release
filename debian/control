@@ -1,0 +1,12 @@
+Source: ros-humble-rqt-gui-cpp
+Section: misc
+Priority: optional
+Maintainer: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-humble-ament-cmake, ros-humble-pluginlib, ros-humble-qt-gui (>= 0.3.0), ros-humble-qt-gui-cpp (>= 0.3.0), ros-humble-rclcpp, ros-humble-ros-workspace
+Homepage: http://ros.org/wiki/rqt_gui_cpp
+Standards-Version: 3.9.2
+
+Package: ros-humble-rqt-gui-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-pluginlib, ros-humble-qt-gui (>= 0.3.0), ros-humble-qt-gui-cpp (>= 0.3.0), ros-humble-rclcpp, ros-humble-ros-workspace
+Description: rqt_gui_cpp enables GUI plugins to use the C++ client library for ROS.
