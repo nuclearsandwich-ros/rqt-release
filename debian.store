@@ -1,1 +1,1 @@
-{"base": "c99d0b5", "parent": "debian/rolling/rqt_gui", "previous": "f84b6b2", "trim": "", "trimbase": ""}
+{"base": "548f38b", "parent": "debian/humble/rqt_gui", "previous": "c89429a", "trim": "", "trimbase": ""}
